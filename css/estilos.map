@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../scss/estilos.scss",
+		"../scss/_variables.scss",
+		"../scss/_fuentes.scss",
+		"../scss/_estructura.scss"
+	],
+	"sourcesContent": [
+		"@import \"variables\";\r\n@import \"fuentes\";\r\n@import \"estructura\";",
+		"$color-fondo: #d3d5e2;\r\n$color-fondosecundario: #6d0505 ;\r\n$color-texto: #6b717f;\r\n$color-textosecundario: #909ba7;\r\n\r\n@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');\r\n$font:'Oswald', sans-serif;\r\n$font-light:300;\r\n$font-regular:400;\r\n$font-bold:700;",
+		"body{\r\n\tfont-family: $font;\r\n\tfont-weight: $font-regular;\r\n}\r\n.type-light{\r\n\tfont-family: $font;\r\n\tfont-weight: $font-light;\r\n}\r\n.type-regular{\r\n\tfont-family: $font;\r\n\tfont-weight: $font-regular;\r\n}\r\n.type-bold{\r\n\tfont-family: $font;\r\n\tfont-weight: $font-bold;\r\n}",
+		"body{\r\n\tbackground-color: #000000;\r\n}\r\n\r\n#header{\r\n\tbackground-color: $color-fondosecundario;\r\n\tcolor: $color-textosecundario;\r\n\ta{\r\n\t\ttext-decoration: none;\r\n\t\tcolor: $color-textosecundario;\r\n\t\tfont-size: 1.5rem;\r\n\t}\r\n}\r\n\r\n.botoneras{\r\n\t.botoneras__boton{\r\n\tdisplay: block;\r\n\t}\r\n\t.botoneras__boton--especial{\r\n\t\tfont-size: 2rem;\r\n\t}\r\n}\r\n\r\n.tamano{\r\n\tmin-height: 200px;\r\n}"
+	],
+	"names": [],
+	"mappings": "ACKA,OAAO,CAAC,oFAAI;;ACLZ,AAAA,IAAI,CAAA;EACH,WAAW,EDKN,QAAQ,EAAE,UAAU;ECJzB,WAAW,EDME,GAAG;CCLhB;;;AACD,AAAA,WAAW,CAAA;EACV,WAAW,EDCN,QAAQ,EAAE,UAAU;ECAzB,WAAW,EDCA,GAAG;CCAd;;;AACD,AAAA,aAAa,CAAA;EACZ,WAAW,EDHN,QAAQ,EAAE,UAAU;ECIzB,WAAW,EDFE,GAAG;CCGhB;;;AACD,AAAA,UAAU,CAAA;EACT,WAAW,EDPN,QAAQ,EAAE,UAAU;ECQzB,WAAW,EDLD,GAAG;CCMb;;;ACfD,AAAA,IAAI,CAAA;EACH,gBAAgB,EAAE,OAAO;CACzB;;;AAED,AAAA,OAAO,CAAA;EACN,gBAAgB,EFJO,OAAO;EEK9B,KAAK,EFHkB,OAAO;CES9B;;;AARD,AAGC,OAHM,CAGN,CAAC,CAAA;EACA,eAAe,EAAE,IAAI;EACrB,KAAK,EFNiB,OAAO;EEO7B,SAAS,EAAE,MAAM;CACjB;;;AAGF,AACC,UADS,CACT,iBAAiB,CAAA;EACjB,OAAO,EAAE,KAAK;CACb;;;AAHF,AAIC,UAJS,CAIT,2BAA2B,CAAA;EAC1B,SAAS,EAAE,IAAI;CACf;;;AAGF,AAAA,OAAO,CAAA;EACN,UAAU,EAAE,KAAK;CACjB"
+}

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap");
+body {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+.type-light {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+.type-regular {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+.type-bold {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  background-color: #6d636342;
+  color: #000000;
+}
+
+.lupa:hover {
+  transform: scale(1.1);
+}
+
+#header {
+  background-color: #b90a3e;
+  color: #000000;
+}
+
+#header a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  min-height: 150px;
+  background-image: url("../media/paisaje.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 60px;
+  padding: 0 20px;
+  color: #fff;
+}
+
+#footer1 {
+  text-align: center;
+  background-color: #b90a3e;
+  color: #000000;
+  min-height: 100px;
+}
+
+#footer1 span {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.destacado {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.botonesEspeciales button {
+  border: 0;
+  font-size: 1.2rem;
+  padding: .25em .5em;
+  background-color: #b90a3e;
+  color: #000000;
+}
+
+.contenedorEspecial.card {
+  text-align: center;
+  display: center;
+  background-color: #b90a3e;
+}
+
+.contenedorEspecial a {
+  border: 0;
+  font-size: 1.2rem;
+  padding: .25em .5em;
+  background-color: #b90a3e;
+  color: #000000;
+}
+
+.ubicacionWhatsapp {
+  cursor: pointer;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  overflow: visible;
+  border: none;
+}
+
+.ubicacionWhatsapp:hover {
+  transform: scale(1.1);
+}
